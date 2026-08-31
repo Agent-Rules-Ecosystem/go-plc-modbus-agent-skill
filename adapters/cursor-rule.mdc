@@ -1,0 +1,6 @@
+---
+description: Industrial PLC Modbus TCP Ethernet communication rules for Go (Golang)
+globs: ["internal/plc/*.go", "cmd/plc/*.go"]
+---
+
+Consult `.skill/go-plc-modbus-agent-skill/SKILL.md` for Go Modbus TCP patterns and endianness decoding.
