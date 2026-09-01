@@ -42,9 +42,22 @@ graph TD
 
 ---
 
-## 📦 Instalación como Submódulo
+## ⚡ Quick Start
 
+**1. Instala la skill como submódulo**
 ```bash
-mkdir -p .skill
 git submodule add git@github.com:Agent-Rules-Ecosystem/go-plc-modbus-agent-skill.git .skill/go-plc-modbus-agent-skill
 ```
+
+**2. Activa la skill con `$boot`**
+```text
+$boot
+```
+
+**3. Ejecuta el primer comando de la skill**
+```text
+$work agregar cliente Modbus TCP con goroutine de monitoreo
+```
+
+---
+
